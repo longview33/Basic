@@ -308,3 +308,55 @@ a{
 #cb:checked > .popup_window{
     display: block;
 }
+.teams{
+    position: relative;
+    margin-top: 50px;
+}
+.teams_block{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.team{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.team_img{
+    width: 350px;
+    height: 293px;
+    background: url("../img/team-1.png") no-repeat center;
+    background-size: 100%;
+}
+.links{
+    display: flex;
+    width: 203px;
+    position: relative;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.25);
+    transition: all .3s linear;
+}
+.links a img{
+    width: 16px;
+    height: 16px;
+}
+.team:hover .links{
+    background: linear-gradient(#fe8464, #fe6e9a)
+}
+.team_text h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+.team_text .desc_cart{
+    margin-top: 10px;
+}
+.team_text{
+    margin-top: 25px;
+}
