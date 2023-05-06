@@ -360,3 +360,63 @@ a{
 .team_text{
     margin-top: 25px;
 }
+.ratings{
+    display: flex;
+    margin-top: 30px;
+    padding: -20px;
+}
+.ratings .title_block{
+    position: absolute;
+}
+.rate_card{
+    width: 350px;
+    height: 376px;
+    margin-top: 15px;
+    border: 2px;
+}
+.rate_text{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 286px;
+    text-align: left;
+}
+.quote{
+    position: relative;
+    bottom: -38px;
+}
+.stars img{
+    position: relative;
+    left: 200px;
+}
+.author{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+}
+.author_img img {
+    position: relative;
+    left: -120px;
+    width: 80px;
+    height: 80px;
+}
+.author_img_bg img{
+    position: absolute;
+    z-index: -1;
+    left: -137px;
+    bottom: 25px;
+}
+.author_about h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    position: relative;
+}
+.author_about{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: -60px;
+    right: 20px;
+}
