@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .bg{
     width: 100%;
@@ -535,7 +536,7 @@ body{
 }
 .footer_info img{
     width: 160px;
-    margin-bottom: 25px;
+    margin-bottom: 170px;
 }
 .footer_info .desc_cart{
     color: #fff;
@@ -546,6 +547,7 @@ body{
 .footer_link{
     display: flex;
     gap: 15px;
+    margin-top: 15px;
     transition: fill .2s linear;
 }
 .footer_link svg{
@@ -553,6 +555,43 @@ body{
     width: 24px;
     fill: #fff;
 }
-.footer_link svg:hover{
-    
+.quick_link h2,
+.resource h2,
+.contact_us h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.quick_link ul,
+.resource ul,
+.contact_us ul{
+    list-style: none;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+.quick_link li,
+.resource li,
+.contact_us li{
+    margin-bottom: 10px;
+}
+.footer{
+    margin-top: 30px;
+    border-top: 1px solid #ffffff80;
+    padding: 35px 0;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+.tp{
+    background: linear-gradient(90deg, #361cc1, #2e82ef);
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    padding: 9px;
+    border-radius: 5px;
 }
